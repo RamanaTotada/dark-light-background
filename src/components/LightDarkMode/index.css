@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  height: 100vh;
+}
+.dark-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: black;
+  border-radius: 8px;
+  background-color: black;
+}
+.Light-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  border-color: black;
+}
+.light-heading {
+  color: beige;
+  font-size: 30px;
+}
+.dark-heading {
+  color: black;
+  font-size: 30px;
+}
+.button-style {
+  background-color: #ffffff;
+  height: 30px;
+  width: 100px;
+  color: black;
+  border-color: green;
+  border-radius: 8px;
+  align-self: center;
+}
